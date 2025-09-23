@@ -1,48 +1,44 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
 // Aquí deberás desarrollar la lógica para resolver el problema.
 
-let listaAmigos = [];
+let listaParticipantes = [];
 
-const nombreAmigo = document.getElementById("amigo");
+const inputParticipante = document.getElementById("participante");
 
-const listaHTML = document.getElementById("listaAmigos");
+const listaHTMLParticipantes = document.getElementById("listaParticipantes");
 
-let indiceAleatorio = 0;
+let indiceSeleccionado = 0;
 
-const amigoSorteado = document.getElementById("amigo-sorteado");
+const participanteSeleccionado = document.getElementById("participante-seleccionado");
 
-function limpiarCaja() {
-     nombreAmigo.value = '';
+function limpiarInput() {
+     inputParticipante.value = '';
 }
 
-function agregarAmigo() {
-    if (nombreAmigo.value == '') {
-        alert('Por favor ingresa un Nombre.');
+function agregarParticipante() {
+    if (inputParticipante.value == '') {
+        alert('Es necesario ingresar el nombre de un participante.');
     } else {
-        listaAmigos.push(nombreAmigo.value);
+        listaParticipantes.push(inputParticipante.value);
     }
-    limpiarCaja();
-    actualizarListaAmigos();
+    limpiarInput();
+    actualizarListaParticipantes();
 }
 
-
-
-function actualizarListaAmigos() {
-    listaHTML.innerHTML = '';
-    for (let i = 0; i < listaAmigos.length; i++) {
+function actualizarListaParticipantes() {
+    listaHTMLParticipantes.innerHTML = '';
+    for (let i = 0; i < listaParticipantes.length; i++) {
         const li = document.createElement('li');
-        li.innerHTML = listaAmigos[i];
-        listaHTML.appendChild(li);
-        
+        li.innerHTML = listaParticipantes[i];
+        listaHTMLParticipantes.appendChild(li);
     }
 }
 
-
-function sortearAmigo() {
-    if (listaAmigos.length == 0) {
-        alert("Primero debe ingresar el nombre de sus amigos.");
+function seleccionarParticipante() {
+    if (listaParticipantes.length == 0) {
+        alert("Primero debes agregar al menos un participante.");
     } else {
-        indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
-        amigoSorteado.innerHTML =  `El(La) amigo(a) sorteado(a) es: ${listaAmigos[indiceAleatorio]}`;
+        indiceSeleccionado = Math.floor(Math.random()*listaParticipantes.length);
+        participanteSeleccionado.innerHTML =  `¡Felicidades! El(La) participante seleccionado(a) es: ${listaParticipantes[indiceSeleccionado]}`;
     }
 }
