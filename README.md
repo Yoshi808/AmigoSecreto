@@ -1,43 +1,43 @@
 ![image](assets/amigo-secreto.png)
-  
+
 # Amigo Secreto 🎁
 
-Esta es una aplicación sencilla para realizar el clásico juego del **Amigo Secreto**.  
-Permite ingresar una lista de amigos y, con un solo clic, sortear aleatoriamente uno de ellos.
+Este proyecto es una aplicación sencilla que recrea el clásico juego del **Amigo Secreto**.  
+Permite agregar nombres de amigos a una lista y, con un solo clic, escoger uno aleatoriamente para el sorteo.
 
 ---
 
-## 🔨 Funcionalidades del proyecto
+## 🔨 Características del proyecto
 
-- `Agregar amigos`: Permite ingresar nombres en una lista dinámica.  
-- `Visualizar lista`: Muestra todos los nombres agregados antes del sorteo.  
-- `Sortear amigo`: Selecciona de forma aleatoria uno de los nombres de la lista.  
-- `Interfaz amigable`: Diseño intuitivo y fácil de usar.  
+- **Añadir amigos**: Permite agregar nombres a una lista de forma dinámica.  
+- **Ver lista**: Muestra todos los nombres ingresados antes de realizar el sorteo.  
+- **Realizar sorteo**: Elige aleatoriamente un nombre de la lista.  
+- **Interfaz sencilla**: Diseño claro y fácil de usar.
 
-Ejemplo visual del proyecto:  
+Vista previa visual del proyecto:
 
 ![image](assets/image.png)
 
 ---
 
-## ✔️ Técnicas y tecnologías utilizadas
+## ✔️ Tecnologías y herramientas utilizadas
 
-- **HTML5**: estructura de la página.  
-- **CSS3**: diseño visual y estilos.  
-- **JavaScript**: lógica para agregar nombres, mostrar la lista y realizar el sorteo.  
-- **Git/GitHub**: control de versiones y despliegue.  
+- **HTML5**: Estructura básica de la página.  
+- **CSS3**: Estilos y diseño visual.  
+- **JavaScript**: Funcionalidad para agregar nombres, mostrar la lista y realizar el sorteo.  
+- **Git/GitHub**: Control de versiones y despliegue del proyecto.
 
 ---
 
 ## 📁 Acceso al proyecto
 
-Puedes acceder al código fuente y al proyecto completo en este repositorio:  
+Puedes revisar el código fuente y el proyecto completo en el siguiente repositorio:  
 [Repositorio Amigo Secreto](https://github.com/Teolinlesp/desafioAmigoSecreto)
 
 ---
 
-## 🛠️ Abrir y ejecutar el proyecto
+## 🛠️ Instrucciones para ejecutar el proyecto
 
-1. Clona este repositorio en tu computadora:  
+1. Clona este repositorio en tu máquina local:  
    ```bash
    git clone https://github.com/Teolinlesp/desafioAmigoSecreto
