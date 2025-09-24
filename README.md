@@ -32,7 +32,7 @@ Vista previa visual del proyecto:
 ## 📁 Acceso al proyecto
 
 Puedes revisar el código fuente y el proyecto completo en el siguiente repositorio:  
-[Repositorio Amigo Secreto](https://github.com/Teolinlesp/desafioAmigoSecreto)
+[Repositorio Amigo Secreto](https://github.com/Yoshi808/AmigoSecreto)
 
 ---
 
